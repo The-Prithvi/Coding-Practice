@@ -20,6 +20,8 @@ print(frequency("Prithvi", "i"))
 
 def frequency2(str):
 
+    str = str.strip()
+
     dict = {}
 
     str = str.strip()
@@ -44,4 +46,5 @@ def frequency2(str):
     return unique_dict
 
 
+# print(frequency2("hello prithvi,  i am jin"))
 print(frequency2("prithvi"))
