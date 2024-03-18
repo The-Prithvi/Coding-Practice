@@ -10,5 +10,5 @@ def palindrome(str):
         print("\"" + str + "\"" +" is Not Palindrome")
 
 palindrome("Prithvi")
-palindrome("MOm")
+palindrome("MOM")
 
